@@ -1,16 +1,7 @@
-#!/usr/bin/env python
-
-from setuptools import setup
-
-# your setup code here ...
-packages = {
-    'graphx': 'graphx/',
-    'graphx.lib': 'graphx/lib/',
-    'algorithms': 'test/'
-}
+import setuptools
 
 
-setup(
+setuptools.setup(
     name='graphx',
     version='1.0',
     description='Framework for graph computations. Supports map, reduce, fold, sort and join operations',
@@ -29,6 +20,5 @@ setup(
         'operator',
         'typing'
     ],
-    packages=packages,
-    package_dir=packages
+    packages=setuptools.find_packages(),
 )
