@@ -6,7 +6,7 @@ setuptools.setup(
     version='1.0',
     description='Framework for graph computations. Supports map, reduce, fold, sort and join operations',
     author='Dmitry Norkin',
-    author_email='esthete282@yandex.ru',
+    author_email='nordmtr@gmail.com',
     requires=[
         'json',
         'sys',
